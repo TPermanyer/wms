@@ -1,0 +1,13 @@
+{
+	"name": "wms-root",
+	"private": true,
+	"version": "0.0.1",
+	"workspaces": [
+		"backend",
+		"frontend"
+	],
+	"scripts": {
+		"postinstall": "echo Root installed",
+		"dev": "npm --workspace backend run dev"
+	}
+}

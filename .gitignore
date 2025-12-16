@@ -1,0 +1,29 @@
+# --- Node / JS / TS ---
+node_modules/
+dist/
+build/
+coverage/
+.npmrc
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# --- Monorepos y herramientas ---
+.eslintcache
+.cache/
+.storybook/
+.next/
+out/
+.vscode/
+.idea/
+
+# --- Env ---
+.env
+.env.*
+!.env.example
+
+# --- SO ---
+.DS_Store
+Thumbs.db
